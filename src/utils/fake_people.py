@@ -1,6 +1,7 @@
 from utils.data_source import *
 from utils.utils import gen_date, gen_distinct, gen_cpf
 from utils.data_source import bancos
+from unstructured_producers import soma
 
 
 def gen_nome():
@@ -18,4 +19,4 @@ def gen_clients(size, banco):
         
         
 if __name__ == '__main__':
-    pass
+    soma()

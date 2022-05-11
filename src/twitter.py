@@ -3,7 +3,6 @@ import tweepy as tw
 import pandas as pd
 from dotenv import load_dotenv
 
-
 def get_twitter_santander_data():
     load_dotenv()
     consumer_key= os.getenv("CONSUMER_KEY")

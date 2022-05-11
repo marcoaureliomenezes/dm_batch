@@ -1,9 +1,5 @@
 import pymysql
 from functools import reduce
-from pymongo import MongoClient
-
-###########################################################################################################
-###################################    MYSQL UTILS METHODS    #############################################
 
 def configure_mysql_database(conn_dict, database):
     commands = dict(

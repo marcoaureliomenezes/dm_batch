@@ -1,2 +1,11 @@
 venv
 .env
+*.pyc
+
+reset.sh
+restart.sh
+start.sh
+stop.sh
+
+
+docker-compose.yml
