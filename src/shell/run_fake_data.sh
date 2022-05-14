@@ -1,8 +1,10 @@
-PERIOD=$1
+#!/bin/bash
 
-python stock_markets.py --user root \
+SIZE=$1
+
+python /app/python/gen_fake_data.py --user root \
                       --password root \
                       --host mysql \
                       --port 3306 \
                       --db data_master \
-                      --period PERIOD
+                      --size $SIZE

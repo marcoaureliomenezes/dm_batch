@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 
 
 def get_assets(tipo="commodities"):
-    with open('./assets_dict.json') as json_file:
+    with open('/app/data/assets_dict.json') as json_file:
         data = json.load(json_file)
     return data[tipo]
 
@@ -14,7 +14,6 @@ def get_ticker_data(ticker, period="max"):
     emp_ticker = Ticker(ticker["symbol"])
     result = emp_ticker.history(period=period)
     columns = ['symbol', 'date', 'high', 'open', 'close', 'volume', 'low', 'adjclose']
-    print(ticker, type(result))
     if type(result) == dict:
         return pd.DataFrame(columns=columns)
     result = result.reset_index()

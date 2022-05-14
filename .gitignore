@@ -1,3 +1,6 @@
 .env
 venv
 *.pyc
+**/data
+ignore.py
+__pycache__

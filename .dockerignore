@@ -1,11 +1,12 @@
 venv
 .env
 *.pyc
-
+__pycache__
 reset.sh
 restart.sh
 start.sh
 stop.sh
+ignore.py
 
 
 docker-compose.yml

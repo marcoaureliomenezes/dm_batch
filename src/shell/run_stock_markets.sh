@@ -1,10 +1,8 @@
-#!/bin/bash
+PERIOD=$1
 
-SIZE=$1
-
-python gen_clients.py --user root \
+python /app/python/get_daily_markets.py --user root \
                       --password root \
                       --host mysql \
                       --port 3306 \
                       --db data_master \
-                      --size $SIZE
+                      --period PERIOD

@@ -15,8 +15,7 @@ RUN pip install --upgrade "pip==22.0.4" && \
 COPY ./src .
 COPY ./dist ./dist
 
-RUN chmod a+x ./run_clients.sh
-RUN chmod a+x ./run_stock_markets.sh
+RUN chmod a+x ./shell/*
 
 RUN pip install ./dist/rand_engine-0.0.2.tar.gz
 
