@@ -1,0 +1,104 @@
+{
+
+"markets":
+    [   
+        {"symbol" :"^GSPC", "name": "SP_500"},
+        {"symbol":"^IXIC", "name": "NASDAQ"},
+        {"symbol":"^DJI", "name": "DOW_JHONES"},
+        {"symbol":"B3SA3.SA", "name": "B3_BOLSA_BALCAO"}
+],
+
+"ibovespa": 
+    [
+        {"symbol" :"RADL3.SA", "name": "Raia Drogasil S.A."},
+        {"symbol":"BBAS3.SA", "name": "Banco do Brasil S.A."},
+        {"symbol":"ENBR3.SA", "name": "EDP - Energias do Brasil S.A."},
+        {"symbol":"ITSA4.SA", "name": "Itaúsa - Investimentos Itaú S.A."},
+        {"symbol":"BBSE3.SA", "name": "BB Seguridade Participações S.A."},
+        {"symbol":"LREN3.SA", "name": "Lojas Renner S.A."},
+        {"symbol":"EQTL3.SA", "name": "Equatorial Energia S.A."},
+        {"symbol":"CMIG4.SA", "name": "Companhia Energética de Minas Gerais"},
+        {"symbol":"BBDC3.SA", "name": "Banco Bradesco S.A."},
+        {"symbol":"BBDC4.SA", "name": "Banco Bradesco S.A."},
+        {"symbol":"MULT3.SA", "name": "Multiplan Empreendimentos Imobiliários S.A."},
+        {"symbol":"BRML3.SA", "name": "BR Malls Participações S.A"},
+        {"symbol":"UGPA3.SA", "name": "Ultrapar Participações S.A."},
+        {"symbol":"USIM5.SA", "name": "Usinas Siderúrgicas de Minas Gerais S.A."},
+        {"symbol":"CCRO3.SA", "name": "CCR S.A."},
+        {"symbol":"JBSS3.SA", "name": "JBS S.A."},
+        {"symbol":"KLBN11.SA", "name": "Klabin S.A."},
+        {"symbol":"ECOR3.SA", "name": "EcoRodovias Infraestrutura e Logística S.A."},
+        {"symbol":"VALE5.SA", "name": "VALE5.SA"},
+        {"symbol":"SBSP3.SA", "name": "Companhia de Saneamento Básico do Estado de São Paulo - SABESP"},
+        {"symbol":"OIBR4.SA", "name": "Oi S.A."},
+        {"symbol":"BRKM5.SA", "name": "Braskem S.A."},
+        {"symbol":"PETR4.SA", "name": "Petróleo Brasileiro S.A. - Petrobras"},
+        {"symbol":"PETR3.SA", "name": "Petróleo Brasileiro S.A. - Petrobras"}
+    ],
+
+    "big_techs": [
+        {"symbol":"AAPL", "name": "Apple"},
+        {"symbol":"TSLA", "name": "Tesla"},
+        {"symbol":"AMZN", "name": "Amazon"},
+        {"symbol":"NFLX", "name": "Netflix"},
+        {"symbol":"FB", "name": "Meta"},
+        {"symbol":"F", "name": "Ford"},
+        {"symbol":"SHOP", "name": "Shopify"},
+        {"symbol":"IBM", "name": "IBM"},
+        {"symbol":"UBER", "name": "Uber"},
+        {"symbol":"TWTR", "name": "Twitter"},
+        {"symbol":"COIN", "name": "Coin Base"},
+        {"symbol":"PYPL", "name": "Paypal"},
+        {"symbol":"PFE", "name": "Pfizer"},
+        {"symbol":"GOOGL", "name": "Google"},
+
+        {"symbol":"GE", "name": "General Eletric Company"},
+        {"symbol":"GM", "name": "General Motors Company"},
+        {"symbol":"GS", "name": "Goldman Sachs Group, Inc. (The)"},
+        {"symbol":"NFLX", "name": "Netflix"},
+        {"symbol":"FB", "name": "Meta"},
+        {"symbol":"F", "name": "Ford"},
+        {"symbol":"SHOP", "name": "Shopify"},
+        {"symbol":"IBM", "name": "IBM"},
+        {"symbol":"UBER", "name": "Uber"},
+        {"symbol":"TWTR", "name": "Twitter"},
+        {"symbol":"COIN", "name": "Coin Base"},
+        {"symbol":"PYPL", "name": "Paypal"},
+        {"symbol":"PFE", "name": "Pfizer"},
+        {"symbol":"GOOGL", "name": "Google"}
+
+    ],
+    "commodities": [
+        {"symbol":"GOLD", "name": "Gold"},
+        {"symbol":"OIL", "name": "Crude Oil"},
+        {"symbol": "SI=F", "name": "Silver"},
+        {"symbol": "SB=F", "name": "Sugar"}
+    ],
+
+    "cryptocoins": [
+        {"symbol": "BTC-USD", "name": "Bitcoin"},
+        {"symbol": "ETH-USD", "name": "Ethereum"},
+        {"symbol": "FTM-USD", "name": "Fantom"},
+        {"symbol": "SOL-USD", "name": "Solana"},
+        {"symbol": "ADA-USD", "name": "Cardano"},
+        {"symbol": "SCARAB-USD", "name": "Scarab"},
+        {"symbol": "GSCARAB-USD", "name": "Gold Scarab"},
+        {"symbol": "DOT-USD", "name": "Pockadot"},
+        {"symbol": "SHIB-USD", "name": "Shiba-inu"},
+        {"symbol": "TRX-USD", "name": "Tron"},
+        {"symbol": "MATIC-USD", "name": "Polygon"},
+        {"symbol": "DOGE-USD", "name": "Doge coin"},
+        {"symbol": "BOO-USD", "name": "Spook Finance"},
+        {"symbol": "LUNA1-USD", "name": "Luna"},
+        {"symbol": "SPIRIT-USD", "name": "Spirit Finance"}
+    ],
+    "stablecoins": [
+        {"symbol": "DAI-USD", "name": "DAI Maker Dolar"},
+        {"symbol": "UST-USD", "name": "Terra Dolar"},
+        {"symbol": "BUSD-USD", "name": "Binance Dolar"},
+        {"symbol": "USDT-USD", "name": "Tether Dolar"},
+        {"symbol": "USDC-USD", "name": "Coinbase Dolar"}
+    ]
+}
+
+
