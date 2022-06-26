@@ -11,13 +11,7 @@ RUN pip install --upgrade "pip==22.0.4" && \
     pip install -r requirements.txt
 
 
-
 COPY ./src .
-COPY ./dist ./dist
 
-RUN chmod a+x ./shell/*
-
-RUN pip install ./dist/rand_engine-0.0.2.tar.gz
-
-CMD ["sleep", "infinity"]
+ENTRYPOINT ["sleep", "infinity"]
 

@@ -1,12 +1,12 @@
 python-dotenv==0.20.0
-tweepy==4.8.0
 pandas==1.4.1
 pymysql==1.0.2
 sqlalchemy==1.4.32
-pymongo==4.0.2
+sqlalchemy-utils
 kafka-python==2.0.2
 pytube
-pydub
 yahooquery
 beautifulsoup4
 lxml
+bcrypt
+rand-engine==0.0.3

@@ -4,3 +4,4 @@ venv
 ignore.py
 __pycache__
 /dist
+**.sh

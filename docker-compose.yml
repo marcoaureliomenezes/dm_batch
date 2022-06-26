@@ -12,19 +12,29 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: data_master
-
+      
+    volumes:
+      - /opt/mysql_data:/var/lib/mysql
     healthcheck:
       test: ["CMD", 'mysqladmin', 'ping', '-h', 'mysql', '-u', 'root', '-p$$MYSQL_ROOT_PASSWORD' ]
       timeout: 45s
       interval: 10s
       retries: 10
 
-  data_batcher:
+  dm_batcher:
     build: ./
     restart: always
-    container_name: data_batcher
-    # volumes:
-    #   - ./src:/app
+    container_name: dm_batcher
+    environment:
+          MYSQL_SERVICE: 'mysql'
+          MYSQL_USER: 'root'
+          MYSQL_PASS: 'root'
+          MYSQL_PORT: '3306'
+          MYSQL_DB: 'data_master'
+          KAFKA_SERVICE: 'kafka'
+          KAFKA_PORT: '9092'
+    volumes:
+      - ./src:/app
 
 ######################################################
   # KAFKA SERVICES
